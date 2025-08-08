@@ -1,0 +1,24 @@
+// This is a comment
+^ App                       // Top-level section
+name = "My Application"
+version = "1.0.0"
+debug = OFF
+
+    // Database settings
+    ^^ Database             // Nested section under App
+    host = "db.example.com"
+    port = 3306
+    user = "appuser"
+    password = "dbpassword"
+
+        ^^^ Pool            // Nested inside Database
+        min = 2
+        max = 10
+        idleTimeout = 300
+
+// Logging settings
+^ Logging                   // Another top-level section
+level = "info"
+logToFile = ON
+filePath = "./logs/app.log"
+outputTargets = ["console", "file", "remote"]

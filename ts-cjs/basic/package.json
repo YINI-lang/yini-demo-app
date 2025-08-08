@@ -1,5 +1,5 @@
 {
-    "name": "yini-demo-app-ts-cjs-basic",
+    "name": "yini-demo-app-ts-cjs-medium",
     "version": "1.0.0",
     "description": "Demo app for YINI config file with a simple web server config file using CommonJS in TypeScript.",
     "main": "dist/index.js",

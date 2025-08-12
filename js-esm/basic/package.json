@@ -8,7 +8,7 @@
         "start": "node index.js"
     },
     "dependencies": {
-        "yini-parser": "^1.0.1-beta"
+        "yini-parser": "^1.0.2-beta"
     },
     "keywords": ["yini", "demo", "config", "javascript", "esm", "parse", "configuration"],
     "license": "MIT"

@@ -17,8 +17,8 @@ try {
     // const config = YINI.parseFile(file, true);
 
     // Print some value in the config.
-    console.log('App Name = '+config.App.name)
-    console.log('DB Host = '+config.App.Database.host)
+    console.log('App Name  = '+config.App.name)
+    console.log('isCaching = '+config.App.Special.isCaching)
     console.log()
 
     // Print the result.
